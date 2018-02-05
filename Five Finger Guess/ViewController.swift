@@ -16,7 +16,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         fingersTextField.resignFirstResponder()
         
-        let diceRoll = String(arc4random_uniform(10))
+        let diceRoll = String(arc4random_uniform(5))
         
         if fingersTextField.text == diceRoll {
             
