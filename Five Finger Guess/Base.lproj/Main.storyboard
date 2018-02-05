@@ -19,13 +19,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How many fingers?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4d2-vH-awn">
-                                <rect key="frame" x="50" y="70" width="275" height="25.5"/>
+                                <rect key="frame" x="50" y="70" width="275" height="26"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How many fingers am I holding up?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bfh-YO-RvJ">
-                                <rect key="frame" x="50" y="140.5" width="275" height="21"/>
+                                <rect key="frame" x="50" y="141" width="275" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -61,14 +61,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Finger Guess.png" translatesAutoresizingMaskIntoConstraints="NO" id="kcR-9p-6eb">
+                                <rect key="frame" x="95" y="438" width="185" height="185"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="185" id="8Ea-2h-M9Z"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="87E-ZO-fVn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="150" id="0Qe-uq-dEl"/>
                             <constraint firstItem="Nd4-ga-7m0" firstAttribute="top" secondItem="Bfh-YO-RvJ" secondAttribute="bottom" constant="35" id="3ws-4o-jjU"/>
                             <constraint firstItem="lma-WZ-ITX" firstAttribute="top" secondItem="Nd4-ga-7m0" secondAttribute="bottom" constant="40" id="4bN-Sg-7bH"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rpT-e4-2m8" secondAttribute="trailing" constant="50" id="8NK-2i-Oho"/>
                             <constraint firstItem="Nd4-ga-7m0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="110" id="BKs-7W-g8Y"/>
+                            <constraint firstItem="kcR-9p-6eb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="95" id="DjU-2d-oFf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Nd4-ga-7m0" secondAttribute="trailing" constant="110" id="E7z-iN-w6c"/>
                             <constraint firstItem="Bfh-YO-RvJ" firstAttribute="top" secondItem="4d2-vH-awn" secondAttribute="bottom" constant="45" id="LBd-Fp-3Eb"/>
                             <constraint firstItem="rpT-e4-2m8" firstAttribute="top" secondItem="87E-ZO-fVn" secondAttribute="bottom" constant="45" id="NOy-nN-7qj"/>
@@ -76,9 +83,11 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4d2-vH-awn" secondAttribute="trailing" constant="50" id="Rog-AN-VgE"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="87E-ZO-fVn" secondAttribute="trailing" constant="150" id="Vh2-AG-VW4"/>
                             <constraint firstItem="rpT-e4-2m8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="Xn8-71-TC2"/>
+                            <constraint firstItem="kcR-9p-6eb" firstAttribute="centerX" secondItem="rpT-e4-2m8" secondAttribute="centerX" id="dAG-1K-TPU"/>
                             <constraint firstItem="4d2-vH-awn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="ecS-m0-1wz"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lma-WZ-ITX" secondAttribute="trailing" constant="140" id="gXJ-7b-s6I"/>
                             <constraint firstItem="4d2-vH-awn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="knB-NO-TjR"/>
+                            <constraint firstItem="kcR-9p-6eb" firstAttribute="top" secondItem="rpT-e4-2m8" secondAttribute="bottom" constant="14" id="lmI-sa-Mwd"/>
                             <constraint firstItem="lma-WZ-ITX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="140" id="pm2-dG-aLG"/>
                             <constraint firstAttribute="trailing" secondItem="Bfh-YO-RvJ" secondAttribute="trailing" constant="50" id="qhT-d1-07p"/>
                             <constraint firstItem="87E-ZO-fVn" firstAttribute="top" secondItem="lma-WZ-ITX" secondAttribute="bottom" constant="45" id="vSc-T5-0Bu"/>
@@ -95,4 +104,7 @@
             <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Finger Guess.png" width="1024" height="1024"/>
+    </resources>
 </document>

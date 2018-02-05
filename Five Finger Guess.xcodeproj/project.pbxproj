@@ -14,6 +14,7 @@
 		D9246E8D20285D210053D441 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9246E8B20285D210053D441 /* LaunchScreen.storyboard */; };
 		D9246E9820285D210053D441 /* Five_Finger_GuessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9246E9720285D210053D441 /* Five_Finger_GuessTests.swift */; };
 		D9246EA320285D210053D441 /* Five_Finger_GuessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9246EA220285D210053D441 /* Five_Finger_GuessUITests.swift */; };
+		D9D19AB42028781E005B13B5 /* Finger Guess.png in Resources */ = {isa = PBXBuildFile; fileRef = D9D19AB32028781E005B13B5 /* Finger Guess.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D9246E9E20285D210053D441 /* Five Finger GuessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Five Finger GuessUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9246EA220285D210053D441 /* Five_Finger_GuessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Five_Finger_GuessUITests.swift; sourceTree = "<group>"; };
 		D9246EA420285D210053D441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9D19AB32028781E005B13B5 /* Finger Guess.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Finger Guess.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				D9246E8220285D210053D441 /* AppDelegate.swift */,
 				D9246E8420285D210053D441 /* ViewController.swift */,
+				D9D19AB32028781E005B13B5 /* Finger Guess.png */,
 				D9246E8620285D210053D441 /* Main.storyboard */,
 				D9246E8920285D210053D441 /* Assets.xcassets */,
 				D9246E8B20285D210053D441 /* LaunchScreen.storyboard */,
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9246E8D20285D210053D441 /* LaunchScreen.storyboard in Resources */,
+				D9D19AB42028781E005B13B5 /* Finger Guess.png in Resources */,
 				D9246E8A20285D210053D441 /* Assets.xcassets in Resources */,
 				D9246E8820285D210053D441 /* Main.storyboard in Resources */,
 			);
