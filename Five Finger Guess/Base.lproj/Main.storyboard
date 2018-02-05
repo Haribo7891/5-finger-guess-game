@@ -24,27 +24,30 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How many fingers am I holding up?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bfh-YO-RvJ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How many fingers am I holding up?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bfh-YO-RvJ">
                                 <rect key="frame" x="50" y="140.5" width="275" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Eg. 4" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="unlessEditing" translatesAutoresizingMaskIntoConstraints="NO" id="lma-WZ-ITX" userLabel="Fingers Text Field">
-                                <rect key="frame" x="140" y="206.5" width="95" height="30"/>
+                                <rect key="frame" x="140" y="253" width="95" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="WdR-KJ-XzL"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="87E-ZO-fVn">
-                                <rect key="frame" x="150" y="281.5" width="75" height="30"/>
+                                <rect key="frame" x="150" y="328" width="75" height="30"/>
                                 <state key="normal" title="Guess"/>
                                 <connections>
                                     <action selector="guess:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uIe-Oe-frb"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rpT-e4-2m8" userLabel="Result Label">
-                                <rect key="frame" x="50" y="356.5" width="275" height="21"/>
+                                <rect key="frame" x="50" y="403" width="275" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="97R-Oa-Thb"/>
                                 </constraints>
@@ -52,12 +55,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(anything between 0-10)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nd4-ga-7m0">
+                                <rect key="frame" x="110" y="197" width="155" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="87E-ZO-fVn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="150" id="0Qe-uq-dEl"/>
+                            <constraint firstItem="Nd4-ga-7m0" firstAttribute="top" secondItem="Bfh-YO-RvJ" secondAttribute="bottom" constant="35" id="3ws-4o-jjU"/>
+                            <constraint firstItem="lma-WZ-ITX" firstAttribute="top" secondItem="Nd4-ga-7m0" secondAttribute="bottom" constant="40" id="4bN-Sg-7bH"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rpT-e4-2m8" secondAttribute="trailing" constant="50" id="8NK-2i-Oho"/>
-                            <constraint firstItem="lma-WZ-ITX" firstAttribute="top" secondItem="Bfh-YO-RvJ" secondAttribute="bottom" constant="45" id="EAD-hI-nqc"/>
+                            <constraint firstItem="Nd4-ga-7m0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="110" id="BKs-7W-g8Y"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Nd4-ga-7m0" secondAttribute="trailing" constant="110" id="E7z-iN-w6c"/>
                             <constraint firstItem="Bfh-YO-RvJ" firstAttribute="top" secondItem="4d2-vH-awn" secondAttribute="bottom" constant="45" id="LBd-Fp-3Eb"/>
                             <constraint firstItem="rpT-e4-2m8" firstAttribute="top" secondItem="87E-ZO-fVn" secondAttribute="bottom" constant="45" id="NOy-nN-7qj"/>
                             <constraint firstItem="Bfh-YO-RvJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="OF3-FW-xKl"/>

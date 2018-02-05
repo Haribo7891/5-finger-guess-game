@@ -8,24 +8,34 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var fingersTextField: UITextField!
     
     @IBAction func guess(_ sender: Any) {
         
-        let diceRoll = String(arc4random_uniform(6))
+        fingersTextField.resignFirstResponder()
+        
+        let diceRoll = String(arc4random_uniform(10))
         
         if fingersTextField.text == diceRoll {
+            
             resultLabel.text = "You're right! Well done."
+            
         } else {
+            
             resultLabel.text = "Wrong! It was a \(diceRoll)."
+            
         }
+        
     }
     
     @IBOutlet weak var resultLabel: UILabel!
     
     override func viewDidLoad() {
+        
+        fingersTextField.delegate = self
+        
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -35,6 +45,20 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        fingersTextField.resignFirstResponder()
+        return true
+    }
+    
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        let allowedCharacters = CharacterSet.decimalDigits
+        let characterSet = CharacterSet(charactersIn: string)
+        return allowedCharacters.isSuperset(of: characterSet)
+    }
 
 }
 
