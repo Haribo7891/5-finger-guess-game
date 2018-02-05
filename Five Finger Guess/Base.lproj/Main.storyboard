@@ -30,14 +30,23 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Eg. 4" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="unlessEditing" translatesAutoresizingMaskIntoConstraints="NO" id="lma-WZ-ITX" userLabel="Fingers Text Field">
+                                <rect key="frame" x="140" y="206.5" width="95" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="lma-WZ-ITX" firstAttribute="top" secondItem="Bfh-YO-RvJ" secondAttribute="bottom" constant="45" id="EAD-hI-nqc"/>
                             <constraint firstItem="Bfh-YO-RvJ" firstAttribute="top" secondItem="4d2-vH-awn" secondAttribute="bottom" constant="45" id="LBd-Fp-3Eb"/>
                             <constraint firstItem="Bfh-YO-RvJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="OF3-FW-xKl"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4d2-vH-awn" secondAttribute="trailing" constant="50" id="Rog-AN-VgE"/>
                             <constraint firstItem="4d2-vH-awn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="ecS-m0-1wz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lma-WZ-ITX" secondAttribute="trailing" constant="140" id="gXJ-7b-s6I"/>
                             <constraint firstItem="4d2-vH-awn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="knB-NO-TjR"/>
+                            <constraint firstItem="lma-WZ-ITX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="140" id="pm2-dG-aLG"/>
                             <constraint firstAttribute="trailing" secondItem="Bfh-YO-RvJ" secondAttribute="trailing" constant="50" id="qhT-d1-07p"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
