@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9246E8320285D210053D441 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9246E8220285D210053D441 /* AppDelegate.swift */; };
+		D9246E8520285D210053D441 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9246E8420285D210053D441 /* ViewController.swift */; };
+		D9246E8820285D210053D441 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9246E8620285D210053D441 /* Main.storyboard */; };
+		D9246E8A20285D210053D441 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9246E8920285D210053D441 /* Assets.xcassets */; };
+		D9246E8D20285D210053D441 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9246E8B20285D210053D441 /* LaunchScreen.storyboard */; };
+		D9246E9820285D210053D441 /* Five_Finger_GuessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9246E9720285D210053D441 /* Five_Finger_GuessTests.swift */; };
+		D9246EA320285D210053D441 /* Five_Finger_GuessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9246EA220285D210053D441 /* Five_Finger_GuessUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9246E9420285D210053D441 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9246E7720285D200053D441 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9246E7E20285D200053D441;
+			remoteInfo = "Five Finger Guess";
+		};
+		D9246E9F20285D210053D441 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9246E7720285D200053D441 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9246E7E20285D200053D441;
+			remoteInfo = "Five Finger Guess";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9246E7F20285D210053D441 /* Five Finger Guess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Five Finger Guess.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9246E8220285D210053D441 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9246E8420285D210053D441 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9246E8720285D210053D441 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9246E8920285D210053D441 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9246E8C20285D210053D441 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9246E8E20285D210053D441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9246E9320285D210053D441 /* Five Finger GuessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Five Finger GuessTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9246E9720285D210053D441 /* Five_Finger_GuessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Five_Finger_GuessTests.swift; sourceTree = "<group>"; };
+		D9246E9920285D210053D441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9246E9E20285D210053D441 /* Five Finger GuessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Five Finger GuessUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9246EA220285D210053D441 /* Five_Finger_GuessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Five_Finger_GuessUITests.swift; sourceTree = "<group>"; };
+		D9246EA420285D210053D441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9246E7C20285D200053D441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9246E9020285D210053D441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9246E9B20285D210053D441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9246E7620285D200053D441 = {
+			isa = PBXGroup;
+			children = (
+				D9246E8120285D210053D441 /* Five Finger Guess */,
+				D9246E9620285D210053D441 /* Five Finger GuessTests */,
+				D9246EA120285D210053D441 /* Five Finger GuessUITests */,
+				D9246E8020285D210053D441 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9246E8020285D210053D441 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9246E7F20285D210053D441 /* Five Finger Guess.app */,
+				D9246E9320285D210053D441 /* Five Finger GuessTests.xctest */,
+				D9246E9E20285D210053D441 /* Five Finger GuessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9246E8120285D210053D441 /* Five Finger Guess */ = {
+			isa = PBXGroup;
+			children = (
+				D9246E8220285D210053D441 /* AppDelegate.swift */,
+				D9246E8420285D210053D441 /* ViewController.swift */,
+				D9246E8620285D210053D441 /* Main.storyboard */,
+				D9246E8920285D210053D441 /* Assets.xcassets */,
+				D9246E8B20285D210053D441 /* LaunchScreen.storyboard */,
+				D9246E8E20285D210053D441 /* Info.plist */,
+			);
+			path = "Five Finger Guess";
+			sourceTree = "<group>";
+		};
+		D9246E9620285D210053D441 /* Five Finger GuessTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9246E9720285D210053D441 /* Five_Finger_GuessTests.swift */,
+				D9246E9920285D210053D441 /* Info.plist */,
+			);
+			path = "Five Finger GuessTests";
+			sourceTree = "<group>";
+		};
+		D9246EA120285D210053D441 /* Five Finger GuessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9246EA220285D210053D441 /* Five_Finger_GuessUITests.swift */,
+				D9246EA420285D210053D441 /* Info.plist */,
+			);
+			path = "Five Finger GuessUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9246E7E20285D200053D441 /* Five Finger Guess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9246EA720285D210053D441 /* Build configuration list for PBXNativeTarget "Five Finger Guess" */;
+			buildPhases = (
+				D9246E7B20285D200053D441 /* Sources */,
+				D9246E7C20285D200053D441 /* Frameworks */,
+				D9246E7D20285D200053D441 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Five Finger Guess";
+			productName = "Five Finger Guess";
+			productReference = D9246E7F20285D210053D441 /* Five Finger Guess.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9246E9220285D210053D441 /* Five Finger GuessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9246EAA20285D210053D441 /* Build configuration list for PBXNativeTarget "Five Finger GuessTests" */;
+			buildPhases = (
+				D9246E8F20285D210053D441 /* Sources */,
+				D9246E9020285D210053D441 /* Frameworks */,
+				D9246E9120285D210053D441 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9246E9520285D210053D441 /* PBXTargetDependency */,
+			);
+			name = "Five Finger GuessTests";
+			productName = "Five Finger GuessTests";
+			productReference = D9246E9320285D210053D441 /* Five Finger GuessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9246E9D20285D210053D441 /* Five Finger GuessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9246EAD20285D210053D441 /* Build configuration list for PBXNativeTarget "Five Finger GuessUITests" */;
+			buildPhases = (
+				D9246E9A20285D210053D441 /* Sources */,
+				D9246E9B20285D210053D441 /* Frameworks */,
+				D9246E9C20285D210053D441 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9246EA020285D210053D441 /* PBXTargetDependency */,
+			);
+			name = "Five Finger GuessUITests";
+			productName = "Five Finger GuessUITests";
+			productReference = D9246E9E20285D210053D441 /* Five Finger GuessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9246E7720285D200053D441 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Harry Crank";
+				TargetAttributes = {
+					D9246E7E20285D200053D441 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D9246E9220285D210053D441 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D9246E7E20285D200053D441;
+					};
+					D9246E9D20285D210053D441 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D9246E7E20285D200053D441;
+					};
+				};
+			};
+			buildConfigurationList = D9246E7A20285D200053D441 /* Build configuration list for PBXProject "Five Finger Guess" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9246E7620285D200053D441;
+			productRefGroup = D9246E8020285D210053D441 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9246E7E20285D200053D441 /* Five Finger Guess */,
+				D9246E9220285D210053D441 /* Five Finger GuessTests */,
+				D9246E9D20285D210053D441 /* Five Finger GuessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9246E7D20285D200053D441 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9246E8D20285D210053D441 /* LaunchScreen.storyboard in Resources */,
+				D9246E8A20285D210053D441 /* Assets.xcassets in Resources */,
+				D9246E8820285D210053D441 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9246E9120285D210053D441 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9246E9C20285D210053D441 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9246E7B20285D200053D441 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9246E8520285D210053D441 /* ViewController.swift in Sources */,
+				D9246E8320285D210053D441 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9246E8F20285D210053D441 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9246E9820285D210053D441 /* Five_Finger_GuessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9246E9A20285D210053D441 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9246EA320285D210053D441 /* Five_Finger_GuessUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9246E9520285D210053D441 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9246E7E20285D200053D441 /* Five Finger Guess */;
+			targetProxy = D9246E9420285D210053D441 /* PBXContainerItemProxy */;
+		};
+		D9246EA020285D210053D441 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9246E7E20285D200053D441 /* Five Finger Guess */;
+			targetProxy = D9246E9F20285D210053D441 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9246E8620285D210053D441 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9246E8720285D210053D441 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9246E8B20285D210053D441 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9246E8C20285D210053D441 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9246EA520285D210053D441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9246EA620285D210053D441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9246EA820285D210053D441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TS37PFWGLM;
+				INFOPLIST_FILE = "Five Finger Guess/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "haribo7891.Five-Finger-Guess";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9246EA920285D210053D441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TS37PFWGLM;
+				INFOPLIST_FILE = "Five Finger Guess/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "haribo7891.Five-Finger-Guess";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D9246EAB20285D210053D441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TS37PFWGLM;
+				INFOPLIST_FILE = "Five Finger GuessTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "haribo7891.Five-Finger-GuessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Five Finger Guess.app/Five Finger Guess";
+			};
+			name = Debug;
+		};
+		D9246EAC20285D210053D441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TS37PFWGLM;
+				INFOPLIST_FILE = "Five Finger GuessTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "haribo7891.Five-Finger-GuessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Five Finger Guess.app/Five Finger Guess";
+			};
+			name = Release;
+		};
+		D9246EAE20285D210053D441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TS37PFWGLM;
+				INFOPLIST_FILE = "Five Finger GuessUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "haribo7891.Five-Finger-GuessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Five Finger Guess";
+			};
+			name = Debug;
+		};
+		D9246EAF20285D210053D441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TS37PFWGLM;
+				INFOPLIST_FILE = "Five Finger GuessUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "haribo7891.Five-Finger-GuessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Five Finger Guess";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9246E7A20285D200053D441 /* Build configuration list for PBXProject "Five Finger Guess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9246EA520285D210053D441 /* Debug */,
+				D9246EA620285D210053D441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9246EA720285D210053D441 /* Build configuration list for PBXNativeTarget "Five Finger Guess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9246EA820285D210053D441 /* Debug */,
+				D9246EA920285D210053D441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9246EAA20285D210053D441 /* Build configuration list for PBXNativeTarget "Five Finger GuessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9246EAB20285D210053D441 /* Debug */,
+				D9246EAC20285D210053D441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9246EAD20285D210053D441 /* Build configuration list for PBXNativeTarget "Five Finger GuessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9246EAE20285D210053D441 /* Debug */,
+				D9246EAF20285D210053D441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9246E7720285D200053D441 /* Project object */;
+}
