@@ -40,15 +40,27 @@
                                 <rect key="frame" x="150" y="281.5" width="75" height="30"/>
                                 <state key="normal" title="Guess"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rpT-e4-2m8" userLabel="Result Label">
+                                <rect key="frame" x="50" y="356.5" width="275" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="97R-Oa-Thb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="87E-ZO-fVn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="150" id="0Qe-uq-dEl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rpT-e4-2m8" secondAttribute="trailing" constant="50" id="8NK-2i-Oho"/>
                             <constraint firstItem="lma-WZ-ITX" firstAttribute="top" secondItem="Bfh-YO-RvJ" secondAttribute="bottom" constant="45" id="EAD-hI-nqc"/>
                             <constraint firstItem="Bfh-YO-RvJ" firstAttribute="top" secondItem="4d2-vH-awn" secondAttribute="bottom" constant="45" id="LBd-Fp-3Eb"/>
+                            <constraint firstItem="rpT-e4-2m8" firstAttribute="top" secondItem="87E-ZO-fVn" secondAttribute="bottom" constant="45" id="NOy-nN-7qj"/>
                             <constraint firstItem="Bfh-YO-RvJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="OF3-FW-xKl"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4d2-vH-awn" secondAttribute="trailing" constant="50" id="Rog-AN-VgE"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="87E-ZO-fVn" secondAttribute="trailing" constant="150" id="Vh2-AG-VW4"/>
+                            <constraint firstItem="rpT-e4-2m8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="Xn8-71-TC2"/>
                             <constraint firstItem="4d2-vH-awn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="ecS-m0-1wz"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lma-WZ-ITX" secondAttribute="trailing" constant="140" id="gXJ-7b-s6I"/>
                             <constraint firstItem="4d2-vH-awn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="knB-NO-TjR"/>
@@ -61,6 +73,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
     </scenes>
 </document>
