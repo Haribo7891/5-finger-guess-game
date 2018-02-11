@@ -61,7 +61,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Finger Guess.png" translatesAutoresizingMaskIntoConstraints="NO" id="kcR-9p-6eb">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Finger Guess" translatesAutoresizingMaskIntoConstraints="NO" id="kcR-9p-6eb">
                                 <rect key="frame" x="95" y="438" width="185" height="185"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="185" id="8Ea-2h-M9Z"/>
@@ -105,6 +105,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Finger Guess.png" width="1024" height="1024"/>
+        <image name="Finger Guess" width="1024" height="1024"/>
     </resources>
 </document>

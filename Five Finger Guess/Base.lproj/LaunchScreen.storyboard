@@ -24,7 +24,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Finger Guess.png" translatesAutoresizingMaskIntoConstraints="NO" id="SXM-JE-vp0">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Finger Guess" translatesAutoresizingMaskIntoConstraints="NO" id="SXM-JE-vp0">
                                 <rect key="frame" x="87" y="280" width="200" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -44,6 +44,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Finger Guess.png" width="1024" height="1024"/>
+        <image name="Finger Guess" width="1024" height="1024"/>
     </resources>
 </document>
